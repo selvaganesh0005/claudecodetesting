@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "null-detector"
+version = "1.0.0"
+description = "A Python package for detecting and reporting null values in pandas DataFrames"
+readme = "readme.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Data Engineer", email = "data@example.com"}
+]
+keywords = ["null", "detection", "pandas", "data-quality"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pandas>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/null-detector"
+Documentation = "https://github.com/yourusername/null-detector"
+Repository = "https://github.com/yourusername/null-detector"
+Issues = "https://github.com/yourusername/null-detector/issues"
