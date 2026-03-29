@@ -40,4 +40,5 @@ venv/
 
 # Claude Code
 .mcp.json
-.claude/settings.local.json
+.claude/
+databricks_mcp.log
